@@ -1,10 +1,10 @@
 FROM python:3.8-slim
 
-ADD requirements.txt .
+EXPOSE 8080
+ENV APP_HOME /app
+WORKDIR $APP_HOME
+COPY . ./
 
-RUN pip install -r requirements.txt
+RUN pip install requests streamlit pandas
 
-COPY app.py /app/app.py
-
-CMD streamlit run app.py
-
+CMD ["streamlit", "run", "--server.port", "8080", "--server.enableCORS", "false", "app.py"]
