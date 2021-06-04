@@ -1,31 +1,21 @@
 # ```mgmt590-webapp``` Question Answering WebApp
 I have created a web app for answering questions, and addition and deletion of models. If a user wants to upload a set of questions along with their context to get the answers for those questions, he/she can easily do that. 
 
-Coming Soon - Details on Persistent Database...
+## How this app works(with screenshots): 
 
-<!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
-  <ol>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites-and-installation">Prerequisites & Installation</a></li>
-      </ul>
-    </li>
-    <li> <a href ="#available-routes-for-api-requests"> Available Routes for API Requests </a></li>
-    <ul> <li> <a href="#models-path"> Models Path </a></li>
-      <li> <a href="#answers-path"> Answers Path </a></li>
-    </ul>
-    <li><a href=#Build> Build API Locally </a> </li>
-  </ol>
-</details>
+On the top of the app’s page, there is a button named “Available Models”. On clicking this button, it shows us all the available models in the web app I created.
 
 
-## Getting Started
-The API has been deployed on cloud and it can be invoked using the URL provided and passing the required available routes or methods defined in second section. Another way to run the API and test the functionality would be to get a local image of the code and run it on your local machine which would require the installation of the dependent libraries described in the next section for successful execution of the API.
+The next thing we see on our page are three text boxes named as “name”, “tokenizer”, and “model”.
+To add a model to our web app, we need to fill these text boxes appropriately as follows:
+  1. Name: The name we would like to give our model.
+  2. Tokenizer: The appropriate tokenizer we would like to use with this specific model.
+  3. Model: The actual model that we are using.
 
-_**API URL - (Publically Available on Cloud)**_
+
+_**1. 	Addition of models:**_
+On the top of the app’s page, there is a button named “Available Models”. On clicking this button, it shows us all the available models in the web app I created.
+
  ```
       Base URL: https://mgmt590-am-rest-api-wbv4eowlaa-uc.a.run.app
  ```
