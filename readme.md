@@ -12,9 +12,7 @@ I have created a web app for answering questions, and addition and deletion of m
 ○ Backing database
 
 
-![image](https://user-images.githubusercontent.com/20911800/120734132-5e4b0980-c4b6-11eb-9cbe-325c468f52b5.png)
-
-
+![](https://user-images.githubusercontent.com/20911800/120734132-5e4b0980-c4b6-11eb-9cbe-325c468f52b5.png)
 
 
 
@@ -22,6 +20,9 @@ I have created a web app for answering questions, and addition and deletion of m
 _**1. 	Available models:**_
 
 On the top of the app’s page, there is a button named “Available Models”. On clicking this button, it shows us all the available models in the web app I created.
+
+![](https://user-images.githubusercontent.com/20911800/120735836-46c15000-c4b9-11eb-8820-b3cef629af07.png)
+
 
 _**2. 	Addition of models:**_
 
@@ -35,11 +36,20 @@ The next thing we see on our page are three text boxes named as “name”, “t
 
 After adding text to these boxes, we need to click on the “Add the Model” button given below these boxes. Once added, the user can see his added model, which is represented by the name that the user gave, by clicking on the “Available Models” button on the top. 
 
+
+![image](https://user-images.githubusercontent.com/20911800/120735952-72dcd100-c4b9-11eb-98d8-779a39decfbc.png)
+
+
 _**3. 	Deletion of models:**_
 
 Further we see a drop-down text box named “select”. If we click on the drop-down menu, we can see all the available models, represented by the name we had assigned them. From those models we can select the model we would like to delete from our web app. For this, we need to select the model by clicking on the model we want to delete from the drop-down menu, the name of the selected model would show beneath the box after the “You Selected:” line, and then click on the “Delete the selected model” button given beneath. This would lead to the removal of the selected model from our web app.
 
 The purpose of this web app is to allow the users to get the answers of the questions they input in the app. The app uses the google postgre SQL database and various ML algorithms to return the answers to users. The database consists of questions and contexts, and the ML algorithms uses these to extract the answers from the contexts and questions stored in the database.
+
+![image](https://user-images.githubusercontent.com/20911800/120736252-f1d20980-c4b9-11eb-84e0-78632359a4fb.png)
+
+![image](https://user-images.githubusercontent.com/20911800/120736271-f991ae00-c4b9-11eb-8386-0c7acc77b7c7.png)
+
 
 _**4. 	Question-answering :**_
 
@@ -47,10 +57,13 @@ Next, we see are two text boxes named “Question” and “Context”. We can s
 We then just need to click on the button given below, named as “Answer Question”.
 Once clicked the model would run and give an answer to that question below.
 
+![image](https://user-images.githubusercontent.com/20911800/120736288-03b3ac80-c4ba-11eb-9b02-6587f5d02431.png)
+
 _**5. 	File uploading:**_
 
-Further we see a file uploader button. Here, by clicking on the “Browse files” button we can upload a .csv file with questions and context for the same inside it. Once uploaded, below the box our web app would give the questions and their answers from the associated context in a table form.
+Further we see a file uploader button. Here, by clicking on the “Browse files” button we can upload a .csv file with questions and context for the same inside it. Once uploaded, below the box our web app would give the questions, context and their answers from the associated context in a table form.
 
+![image](https://user-images.githubusercontent.com/20911800/120736296-07dfca00-c4ba-11eb-83e0-f53b1ca50aa1.png)
 
 
 ## Prerequisites and Installation:
