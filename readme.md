@@ -80,6 +80,8 @@ To run this application, you'll need the following pre-requisites installed on y
 | Tensor Flow | 2.5.0 | `pip install --upgrade tensorflow` |
 | Pytorch | 1.8.1+cpu | `pip install torch` |
 | streamlit | 0.82.0 | `pip install streamlit` |
+| pytest | 6.2.2 | `pip install pytest` |
+| psycopg2-binary | 2.8.6 | `pip install psycopg2-binary` |
 
 
 ## Container Deployment through Docker
