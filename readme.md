@@ -1,5 +1,5 @@
-# ```mgmt590-webapp``` Question Answering API
-This API allows you to answer your questions pulling out the information from the contextual information provided as input to the API. This API uses the question and context passed in the body of the request and takes the model as a parameter. The API uses the hugging face transformers model to answer the question and the model used to answer would be dependent on the user. 
+# ```mgmt590-webapp``` Question Answering WebApp
+I have created a web app for answering questions, and addition and deletion of models. If a user wants to upload a set of questions along with their context to get the answers for those questions, he/she can easily do that. 
 
 Coming Soon - Details on Persistent Database...
 
